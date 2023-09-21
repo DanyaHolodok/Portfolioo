@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    
+}
+
+section {
+    background-color: rgba(239, 239, 238, 1);
+    align-items: center;
+    max-width: 1920px;
+    width: 100%;
+    background-image: url(./images/background.png);
+}
+
+.container {
+    margin: 0 160px;
+}
+
+.header {
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 56px;
+}
+
+.navlink a {
+    color: rgba(48, 48, 48, 1);
+    font-size: 18px;
+}
+
+.logo a {
+    font-size: 36px;
+    font-weight: 600;
+    padding-right: 200px;
+}
+
+.logo span:nth-child(1) {
+    color: rgba(48, 48, 48, 1);
+}
+
+.logo span:nth-child(2) {
+    color: rgba(144, 144, 144, 1);
+}
+    
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.main-text {
+    margin-left: 330px;
+    font-size: 96px;
+    color: rgba(48, 48, 48, 1);
+    font-weight: 500;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.services {
+    gap: 33px;
+}
+
+.service {
+    width: 294px;
+}
+
+.service:nth-child(2) {
+    margin-top: 30px;
+}
+.service:nth-child(3) {
+    margin-top: 30px;
+}
+
+.up {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.up img {
+    padding: 6px;
+    background-color: rgba(246, 246, 246, 1);
+}
+
+.photo {
+    margin-top: 24px;
+}
+
+
+
+
+
+
+
+.information h2 {
+    font-size: 32px;
+    color: rgba(48, 48, 48, 1);
+}
+
+.inf-p {
+    color: rgba(144, 144, 144, 1);
+    width: 408px;
+    font-weight: 300;
+}
+
+button {
+    margin-top: 48px;
+    padding: 10px 36px;
+    background-color: rgba(48, 48, 48, 1);
+    color: rgba(246, 246, 246, 1);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.pers-inf {
+    margin-top: 73px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
